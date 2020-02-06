@@ -12,15 +12,15 @@
         </svg>
     </label>
     <div class="ae-container-fluid rk-topbar">
-        <h1 class="rk-logo"><a href="index.html">FP Rehabilitación</a></h1>
+        <h1 class="rk-logo"><a routerLink="home">{{ _infoServicio.info.titulo}}</a></h1>
         <nav class="rk-navigation">
             <ul class="rk-menu">
-                <li class="active rk-menu__item"><a href="index.html" class="rk-menu__link">Home</a>
+                <li class=" rk-menu__item" routerLinkActive="active"><a routerLink="home" class="rk-menu__link">Home</a>
                 </li>
-                <li class="rk-menu__item"><a href="componentes/tratamiento/tratamiento.component.html" class="rk-menu__link">Tratamientos</a>
+                <li class="rk-menu__item" routerLinkActive="active"><a routerLink="tratamiento" class="rk-menu__link">Tratamientos</a>
                 </li>
-                <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contactenos</a>
-                </li>
+                <li class="rk-menu__item" routerLinkActive="active"><a routerLink="contactos" class="rk-menu__link">Contactenos</a>
+                </li>                
             </ul>
 
             <form class="rk-search">
